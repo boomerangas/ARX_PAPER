@@ -148,7 +148,7 @@ class ChamBoom(AbstractCipher):
         command += "ASSERT({0} = {1});\n".format(y1_out, y2_in)
         command += "ASSERT({0} = {1});\n".format(y2_out, y3_in)
         
-        #Addition operation (If any word is active, AND is active and output is 1)
+        #Addition operation (If any word is active, output is 1)
         command += "ASSERT({0} = {1}|{2});\n".format(x3_out, x0_in, x1_in)
         command += "ASSERT({0} = {1}|{2});\n".format(y0_in, y3_out , y1_in)
         
