@@ -1,0 +1,23 @@
+cipher: katan32BCT
+startRound: 83
+endRound: 90
+switchRounds: 4
+threshold: 5
+eachRoundMaxTime: 24
+eachRoundMaxValid: 10
+wordsize: 32
+sweight: 0
+endweight: 100
+iterative: False
+boolector: False
+dot: None
+latex: None
+nummessages: 1
+timelimit: -1
+offset: 0
+validBound: 32
+cluster_count: 100
+countered_trails: [ ]
+#fixedVariables:
+#  - X0: "0hex10042880"
+#  - Y86: "0hex00801081"

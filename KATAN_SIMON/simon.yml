@@ -1,0 +1,46 @@
+cipher: simon
+# ciphers' identifier
+
+startRound: 13
+# the rounds of starting searching
+endRound: -1
+# the last rounds of searching
+
+switchRounds: 1
+# setting rounds of boomerang switches, if value is -1, then there is no switch structure in STM model.
+
+threshold: 10
+# Count the number of times the rectangle probability stays within an integer range, if number > threshold, then stop searching.
+
+eachRoundMaxTime: 24
+# the max searching time in each round with all weights.
+
+eachRoundMaxValid: 5
+# the max results in each round with all weights.
+
+wordsize: 16
+# cipher's word size
+
+validBound: 32
+
+sweight: 0
+# start searching weight.
+
+endweight: 40
+# end searching weight.
+
+iterative: False
+
+boolector: False
+dot: None
+latex: None
+nummessages: 1
+timelimit: -1
+offset: 0
+cluster_count: 10
+countered_trails: [ ]
+#fixedVariables:
+#  - XL0: "0hex0000"
+#  - XR0: "0hex0040"
+#  - YL13: "0hex4000"
+#  - YR13: "0hex0000"

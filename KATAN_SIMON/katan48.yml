@@ -1,0 +1,23 @@
+cipher: katan48BCT
+startRound: 80
+endRound: 100
+switchRounds: 3
+threshold: 5
+eachRoundMaxTime: 24
+eachRoundMaxValid: 5
+wordsize: 48
+sweight: 10
+endweight: 100
+iterative: False
+boolector: False
+dot: None
+latex: None
+nummessages: 1
+timelimit: -1
+offset: 0
+cluster_count: 100
+countered_trails: [ ]
+validBound: 48
+# fixedVariables:
+#   - Xa0: "0hex000000904000"
+#   - Ya60: "0hex000402000000"
