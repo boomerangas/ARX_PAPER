@@ -1,12 +1,12 @@
 # ARX_PAPER
-The repository of the paper **"Revisiting Boomerang Connectivity for ARX Ciphers with applications to CHAM, KATAN and SIMON"**.
+The repository of the paper **"Revisiting Boomerang Attacks on Lightweight ARX and AND-RX Ciphers with Applications to CHAM, KATAN and SIMON"**.
 
 * Authors: LI YU([liyu0x@outlook.com]()), Teh Je sen([jesen_teh@hotmail.com]())
 
-# Dictionary List
+# Directory List
 
-- KATAN_SIMON: The dictionary contains the SMT model for KATAN and SIMON.
-- GPU_CHECKER: The dictionary contains the chcker based on CUDA for KATAN32 and SIMON32.
+- KATAN_SIMON: SMT models for KATAN and SIMON.
+- GPU_CHECKER: Boomerang verification experiments for KATAN32 and SIMON32.
 
 
 
