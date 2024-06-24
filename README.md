@@ -7,6 +7,7 @@ The repository of the paper **"Revisiting Boomerang Attacks on Lightweight ARX a
 
 - KATAN_SIMON: SMT models for KATAN and SIMON.
 - GPU_CHECKER: Boomerang verification experiments for KATAN32 and SIMON32.
+- CHAM: All experiments related to CHAM and boomerang switches for ARX ciphers
 
 
 
